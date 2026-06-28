@@ -10,7 +10,7 @@ const stats = [
     emoji: "😍",
   },
   {
-    label: "Sweet beijos",
+    label: "Sweet Beijos",
     value: 100,
     emoji: "💘",
   },

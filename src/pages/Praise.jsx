@@ -50,7 +50,7 @@ export default function Praise({ goTo, pages }) {
         transition={{ delay: 1.5 }}
         className="text-center italic text-pink-500 font-medium"
       >
-        Verdict: You're kinda cool. 🇧🇷
+        Verdict: You're a nerd, but kinda cool.
       </motion.p>
 
       <div className="flex gap-4">

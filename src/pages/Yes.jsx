@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import catDance from "/cat-dance.gif";
 import Page from "../components/Page";
 import Button from "../components/Button";
 
@@ -9,14 +9,18 @@ export default function Yes({ goTo, pages }) {
       <motion.div
         initial={{ scale: 0 }}
         animate={{
-          scale: [0, 1.2, 1],
-          rotate: [0, 10, -10, 0],
+            scale: [0, 1.2, 1],
+            rotate: [0, 10, -10, 0],
         }}
         transition={{ duration: 0.8 }}
-        className="text-6xl"
-      >
-        🎉
-      </motion.div>
+        className="w-56 h-56 overflow-hidden rounded-2xl shadow-lg"
+        >
+            <img
+                src={catDance}
+                alt="Cat dancing"
+                className="w-full h-full object-cover object-center scale-150"
+            />
+        </motion.div>
 
       <motion.h1
         initial={{ opacity: 0, y: 10 }}
@@ -24,7 +28,7 @@ export default function Yes({ goTo, pages }) {
         transition={{ delay: 0.2 }}
         className="text-4xl font-bold text-pink-500 text-center"
       >
-        AAAAAAA SIM!!! ❤️🇧🇷
+        AAAAAAA SIM!!! ❤️🎉
       </motion.h1>
 
       <motion.p
@@ -56,7 +60,7 @@ export default function Yes({ goTo, pages }) {
           <p>🌿 Nature dates</p>
           <p>⚽ Football arguments (friendly ones 😌)</p>
           <p>🤣 Endless hearty laughs</p>
-          <p>🎶 Asake on repeat</p>
+          <p>🎶 Passenger princess DJ playlists on repeat</p>
           <p> ❤️ Amazing adventures</p>
         </div>
       </motion.div>

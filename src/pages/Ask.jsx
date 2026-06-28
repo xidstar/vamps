@@ -97,10 +97,10 @@ export default function Ask({ goTo, pages }) {
         </p>
 
         <p>
-          Whether we're talking about Brazil,
+          Whether we're talking about our life experiences,
           solving random math problems,
           eating way too much coxinha,
-          or just our regular late night convos...
+          or just having our regular late night convos...
         </p>
 
         <motion.p
@@ -113,7 +113,7 @@ export default function Ask({ goTo, pages }) {
           }}
           className="text-xl font-semibold text-pink-500"
         >
-          I'd love to keep making those memories with you.
+          I'd love to keep getting to know you and make more memories with you.
         </motion.p>
       </div>
 

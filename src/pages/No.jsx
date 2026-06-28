@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import VAR from "/var.gif"
 import Page from "../components/Page";
 import Button from "../components/Button";
 
@@ -31,7 +31,7 @@ export default function No({ goTo, pages }) {
         transition={{ delay: 0.3 }}
         className="text-5xl"
       >
-        📺
+        <img src={VAR} alt="VAR" />
       </motion.div>
 
       <motion.p
